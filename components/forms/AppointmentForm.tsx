@@ -19,7 +19,7 @@ import SubmitButton from "../SubmitButton";
 import { Form } from "../ui/form";
 import CustomFormField from "../CustomFormField";
 import { FormFieldType } from "./PatientForm";
-import { createAppointment } from "@/lib/actions/appointment.actions";
+import { createAppointment, updateAppointment } from "@/lib/actions/appointment.actions";
 
 export const AppointmentForm = (
     {
@@ -104,12 +104,12 @@ export const AppointmentForm = (
           type,
         };
 
-        // const updatedAppointment = await updateAppointment(appointmentToUpdate);
+        const updatedAppointment = await updateAppointment(appointmentToUpdate);
 
-        // if (updatedAppointment) {
-        //   setOpen && setOpen(false);
-        //   form.reset();
-        // }
+        if (updatedAppointment) {
+          setOpen && setOpen(false);
+          form.reset();
+        }
       }
     } catch (error) {
       console.log(error);
