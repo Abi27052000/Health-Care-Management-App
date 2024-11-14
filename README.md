@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a target="_blank">
-      <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
+      <img src="https://github.com/Abi27052000/Health-Care-Management-App?tab=readme-ov-file" alt="Project Banner">
     </a>
   <br />
 
