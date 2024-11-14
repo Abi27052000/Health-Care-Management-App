@@ -1,9 +1,5 @@
 <div align="center">
-  <br />
-    <a target="_blank">
-      <img src="https://github.com/Abi27052000/Health-Care-Management-App?tab=readme-ov-file" alt="Project Banner">
-    </a>
-  <br />
+
 
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
